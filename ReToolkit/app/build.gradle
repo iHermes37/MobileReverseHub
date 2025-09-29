@@ -1,0 +1,89 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.android.retoolkit'
+    compileSdk 35
+    buildFeatures {
+        prefab true  // 启用 Prefab 支持
+    }
+//    packagingOptions {
+//        exclude '**/libretoolkit.so'  // 不打包到模块的 APK
+//    }
+    applicationVariants.all { variant ->
+        variant.mergeAssetsProvider.get().doLast {
+            // 将 jniLibs 中的 .so 拷贝到 assets/libs
+//            copy {
+//                from "src/main/cpp/output"
+//                into "src/main/assets/libs"
+//                include "**/*.so"
+//            }
+            copy {
+                from "src/main/cpp/output"  // 源目录
+                into "${variant.mergeAssets.outputDir.get()}/libs"  // 目标目录
+                include "**/*.so"
+
+                // 关键：显式设置文件权限
+                fileMode 0644  // -rw-r--r--
+                dirMode 0755   // drwxr-xr-x
+            }
+        }
+    }
+    sourceSets {
+        main {
+            // 将 .so 文件放入 assets/libs 目录
+            assets.srcDirs += ['src/main/assets/libs']
+        }
+    }
+    defaultConfig {
+        applicationId "com.android.retoolkit"
+        minSdk 29
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+        ndk {
+            abiFilters 'armeabi-v7a'
+//                    'arm64-v8a'
+//                    'x86', 'x86_64'
+        }
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ''
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    externalNativeBuild {
+        cmake {
+            path file('src/main/cpp/CMakeLists.txt')
+            version '3.22.1'
+        }
+    }
+}
+
+dependencies {
+//    implementation 'com.swift.sandhook:hooklib:3.4.0'
+//    // 不使用 Xposed API 则不需要引入
+//    implementation 'com.swift.sandhook:xposedcompat:3.4.0'
+    implementation 'com.bytedance.android:shadowhook:1.1.1'
+    implementation 'com.bytedance:bytehook:1.1.1'
+    compileOnly files('libs/XposedBridgeAPI-82.jar')
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

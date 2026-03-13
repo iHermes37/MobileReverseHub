@@ -1,0 +1,9 @@
+﻿  DexReader.cpp
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(126,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(157,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(201,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(249,27): warning C4018: “<”: 有符号/无符号不匹配
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(291,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(374,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\SourceInsight\Code\c++project\DexReader\DexReader.cpp(476,23): warning C4018: “<”: 有符号/无符号不匹配
+  DexReader.vcxproj -> D:\SourceInsight\Code\c++project\DexReader\x64\Debug\DexReader.exe

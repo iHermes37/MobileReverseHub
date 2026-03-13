@@ -1,0 +1,287 @@
+﻿  test.cpp
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(59,12): warning C4477: “printf”: 格式字符串“%016x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(59,12):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(59,12):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(59,12):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(60,12): warning C4477: “printf”: 格式字符串“%08x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Off”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(60,12):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(60,12):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(60,12):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(61,12): warning C4477: “printf”: 格式字符串“%08x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Off”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(61,12):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(61,12):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(61,12):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(77,24): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(80,12): warning C4477: “printf”: 格式字符串“%04x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“Elf64_Off”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(80,12):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(80,12):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(80,12):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(114,16): warning C4477: “printf”: 格式字符串“%016x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(114,16):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(114,16):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(114,16):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(115,16): warning C4477: “printf”: 格式字符串“%016x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(115,16):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(115,16):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(115,16):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(116,16): warning C4477: “printf”: 格式字符串“%6u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(116,16):
+      请考虑在格式字符串中使用“%llu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(116,16):
+      请考虑在格式字符串中使用“%Iu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(116,16):
+      请考虑在格式字符串中使用“%I64u”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(117,16): warning C4477: “printf”: 格式字符串“%6u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(117,16):
+      请考虑在格式字符串中使用“%llu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(117,16):
+      请考虑在格式字符串中使用“%Iu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(117,16):
+      请考虑在格式字符串中使用“%I64u”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(118,16): warning C4477: “printf”: 格式字符串“%08x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(118,16):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(118,16):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(118,16):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(126,24): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(130,42): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(132,12): warning C4477: “printf”: 格式字符串“%04x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“Elf64_Off”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(132,12):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(132,12):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(132,12):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(134,12): warning C4129: “ ：: 不可识别的字符转义序列
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(169,16): warning C4477: “printf”: 格式字符串“%016x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(169,16):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(169,16):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(169,16):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(170,16): warning C4477: “printf”: 格式字符串“%08x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Off”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(170,16):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(170,16):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(170,16):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(171,16): warning C4477: “printf”: 格式字符串“%4lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(171,16):
+      请考虑在格式字符串中使用“%llu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(171,16):
+      请考虑在格式字符串中使用“%Iu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(171,16):
+      请考虑在格式字符串中使用“%I64u”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(174,16): warning C4477: “printf”: 格式字符串“%2lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(174,16):
+      请考虑在格式字符串中使用“%llu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(174,16):
+      请考虑在格式字符串中使用“%Iu”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(174,16):
+      请考虑在格式字符串中使用“%I64u”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(175,16): warning C4477: “printf”: 格式字符串“%4x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(175,16):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(175,16):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(175,16):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(185,24): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(189,42): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(195,30): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(200,60): warning C4267: “+=”: 从“size_t”转换到“uint32_t”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(258,24): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(265,42): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(271,42): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(282,30): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(287,44): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(293,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(293,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(293,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(293,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(294,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(294,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(294,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(294,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(404,24): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(412,45): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(415,37): warning C4244: “初始化”: 从“Elf64_Xword”转换到“Elf64_Word”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(420,41): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(425,56): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(430,50): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(436,31): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(437,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(437,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(437,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(437,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(438,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(438,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(438,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(438,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(440,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Addr”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(440,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(440,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(440,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(749,24): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(760,52): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(767,39): warning C4244: “初始化”: 从“Elf64_Xword”转换到“Elf64_Word”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(768,20): warning C4477: “printf”: 格式字符串“%#lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Off”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(768,20):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(768,20):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(768,20):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(792,38): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(795,48): warning C4244: “参数”: 从“Elf64_Off”转换到“long”，可能丢失数据
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(799,31): warning C4018: “<”: 有符号/无符号不匹配
+  (编译源文件“test.cpp”)
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(800,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Sxword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(800,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(800,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(800,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(802,24): warning C4477: “printf”: 格式字符串“%08lx”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“Elf64_Xword”
+  (编译源文件“test.cpp”)
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(802,24):
+      请考虑在格式字符串中使用“%llx”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(802,24):
+      请考虑在格式字符串中使用“%Ix”
+      D:\SourceInsight\Code\c++project\ELFReader\ELFReader.cpp(802,24):
+      请考虑在格式字符串中使用“%I64x”
+  
+  ELFReader.vcxproj -> D:\SourceInsight\Code\c++project\ELFReader\x64\Debug\ELFReader.exe
